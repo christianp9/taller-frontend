@@ -1,0 +1,9 @@
+@media (min-width: 420px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 10fr);
+    grid-template-rows: auto;
+    max-width: max-content;
+    gap: 32;
+  }
+}
